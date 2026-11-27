@@ -1,0 +1,42 @@
+# 凭据与密钥：一律不入库
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+certs/
+secrets/
+credentials
+.git-credentials
+
+# 运行期数据
+data/
+pg/
+minio/
+redis/
+tmp/
+*.log
+
+# 构建与缓存
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 系统与编辑器
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# 教材与作业原始文件（含学生隐私，禁止入库）
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.heic
